@@ -1,0 +1,64 @@
+{
+    "Publishers": [
+        "SeekingAlpha",
+        "FT",
+        "BusinessWire",
+        "Reuters",
+        "TheStreet"
+    ],
+    "SeekingAlpha": {
+        "domain": "https://seekingalpha.com",
+        "url": "https://seekingalpha.com/market-news/m-a",
+        "table": "SeekingAlpha",
+        "rows_path": "li.mc",
+        "title_path": "div.media-body div.title a",
+        "link_path": "div.media-body div.title a",
+        "link_with_domain": false
+    },
+    "FT": {
+        "domain": "https://www.ft.com",
+        "url": "https://www.ft.com/mergers-acquisitions",
+        "table": "FT",
+        "rows_path": "li.o-grid-row",
+        "title_path": "a.js-teaser-heading-link",
+        "link_path": "a.js-teaser-heading-link",
+        "link_with_domain": false
+    },
+    "NewsNow": {
+        "domain": "https://www.newsnow.co.uk",
+        "url": "https://www.newsnow.co.uk/h/Business+&+Finance/Corporate+Finance/Mergers+&+Acquisitions?type=ln",
+        "table": "NewsNow",
+        "rows_path": "div.js-newsmain div.newsfeed div.hl",
+        "title_path": "div.hl__inner a.hll",
+        "link_path": "div.hl__inner a.hll",
+        "link_with_domain": true
+    },
+    "BusinessWire": {
+        "domain": "https://www.businesswire.com",
+        "url": "https://www.businesswire.com/portal/site/home/news/subject/?vnsId=31333",
+        "table": "BusinessWire",
+        "rows_path": "ul.bwNewsList li",
+        "title_path": "a.bwTitleLink span",
+        "link_path": "a.bwTitleLink",
+        "link_with_domain": false,
+        "english_only": true
+    },
+    "Reuters": {
+        "domain": "https://www.reuters.com",
+        "url": "https://www.reuters.com/finance/deals/mergers",
+        "table": "Reuters",
+        "rows_path": "div.column1 div.news-headline-list article.story",
+        "title_path": "h3",
+        "link_path": "a",
+        "link_with_domain": false
+    },
+    "TheStreet": {
+        "domain": "https://www.thestreet.com",
+        "url": "https://www.thestreet.com/markets/mergers-acquisitions",
+        "table": "TheStreet",
+        "rows_path": "div.l-grid--item div.m-card--content",
+        "title_path": "phoenix-ellipsis.m-card--header a h2",
+        "link_path": "phoenix-ellipsis.m-card--header a",
+        "link_with_domain": true
+    }
+}

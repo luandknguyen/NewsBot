@@ -1,0 +1,17 @@
+[Unit]
+Description=NewsBot
+After=network.target
+
+[Service]
+ExecStart=/usr/lib/bin/node /var/NewsBot/build/index.js
+Restart=always
+RestartSec=1000ms
+
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=nodejs
+
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target
