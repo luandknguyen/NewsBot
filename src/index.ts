@@ -15,8 +15,14 @@ var publisher_names: string[] = [];
 var bot_config: { [key: string]: any };
 var token: string = "";
 var command: string = "";
-var request: RequestInit;
 var timer_interval: number = 60000;
+
+var request: RequestInit = {
+    method: "GET",
+    headers: {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:83.0) Gecko/20100101 Firefox/83.0"
+    }
+};
 
 function load_config() {
 
@@ -34,7 +40,6 @@ function load_config() {
 
     token = bot_config.token;
     command = bot_config.command;
-    request = bot_config.request;
     timer_interval = bot_config.timer_interval;
 }
 
