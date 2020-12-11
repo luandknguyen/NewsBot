@@ -10,7 +10,7 @@
         "domain": "https://citronresearch.com",
         "url": "https://citronresearch.com/citron-report-archives/",
         "table": "Citron",
-        "rows_path": "div.avia-content-slider-inner article",
+        "articles_path": "div.avia-content-slider-inner article",
         "title_path": "div.slide-content h3 a",
         "link_path": "div.slide-content h3 a",
         "link_with_domain": true
@@ -19,7 +19,7 @@
         "domain": "https://hindenburgresearch.com",
         "url": "https://hindenburgresearch.com/",
         "table": "Hindenburg",
-        "rows_path": "div.post-preview",
+        "articles_path": "div.post-preview",
         "title_path": "h2 a",
         "link_path": "h2 a",
         "link_with_domain": true
@@ -28,7 +28,7 @@
         "domain": "https://www.muddywatersresearch.com",
         "url": "https://www.muddywatersresearch.com/research/",
         "table": "MuddyWater",
-        "rows_path": "table.reports-table tbody tr",
+        "articles_path": "table.reports-table tbody tr",
         "title_path": "td.first a",
         "link_path": "td.first a",
         "link_with_domain": true
@@ -37,7 +37,7 @@
         "domain": "https://www.sprucepointcap.com",
         "url": "https://www.sprucepointcap.com/research/",
         "table": "SprucePoint",
-        "rows_path": "div.page_content div.post",
+        "articles_path": "div.page_content div.post",
         "title_path": "div.post_right h2.entry-title a",
         "link_path": "div.post_right h2.entry-title a",
         "link_with_domain": true
@@ -46,7 +46,7 @@
         "domain": "https://whitediamondresearch.com",
         "url": "https://whitediamondresearch.com/",
         "table": "WhiteDiamond",
-        "rows_path": "div.mCSB_container article",
+        "articles_path": "div.mCSB_container article",
         "title_path": "div.heading div.title a",
         "link_path": "div.heading div.title a",
         "link_with_domain": true

@@ -243,7 +243,7 @@ function onMessage(msg: Discord.Message) {
             msg.channel.send("Is not running");
         }
     } else if (msg.content === command + "load-config") {
-        console.log("RELOAD CONFIG")
+        console.log("RELOAD CONFIG");
         if (!running) {
             load_config();
         }
